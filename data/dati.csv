@@ -1,7 +1,7 @@
 ID,nome,prezzo,quantità,categoria,immagini
-1,Pane,1.5,10,Alimenti,'/workspace/AmazonFlask/data/immagini/pane.png'
-2,Latte,0.8,20,Alimenti,'/workspace/AmazonFlask/data/immagini/latte.png'
-3,Frutta,2.0,15,Alimenti,'/workspace/AmazonFlask/data/immagini/frutta.png'
-4,Pane,1.5,10,Alimenti,'/workspace/AmazonFlask/data/immagini/pane.png'
-5,Latte,0.8,20,Alimenti,'/workspace/AmazonFlask/data/immagini/latte.png'
-6,Frutta,2.0,15,Alimenti,'/workspace/AmazonFlask/data/immagini/frutta.png'
+1,Pane,1.5,10,Alimenti,"https://www.cucchiaio.it/content/dam/cucchiaio/it/ricette/2024/01/pane-fatto-in-casa-veloce/pane-veloce-anteprima.jpg"
+2,Latte,0.8,20,Alimenti,"https://www.my-personaltrainer.it/2022/09/08/latte-e-salute_900x760.jpeg"
+3,Frutta,2.0,15,Alimenti,"https://www.buonalavita.it/sites/default/files/styles/scale_460x460/public/2021-02/arance-tagliate-meta-mele-lime-kiwi-limoni-uva-ananas.jpg?itok=2lhUxy6A"
+4,Pane,1.5,10,Alimenti,"https://www.cucchiaio.it/content/dam/cucchiaio/it/ricette/2024/01/pane-fatto-in-casa-veloce/pane-veloce-anteprima.jpg"
+5,Latte,0.8,20,Alimenti,"https://www.my-personaltrainer.it/2022/09/08/latte-e-salute_900x760.jpeg"
+6,Frutta,2.0,15,Alimenti,"https://www.buonalavita.it/sites/default/files/styles/scale_460x460/public/2021-02/arance-tagliate-meta-mele-lime-kiwi-limoni-uva-ananas.jpg?itok=2lhUxy6A"
