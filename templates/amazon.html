@@ -1,22 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-</head>
-<body>
-    {% if part == 'part1' %}
-    <a href='/elenco'><button>Prodotti</button></a>
-    {% elif part == 'part2' %}
-    {{ tabella|safe }}
-    {% for img in prodotti %}
-    <img src="{{ img }}" alt="">
-    <p>{{nome}}</p>
-    <p>{{nome}}</p>
-    <p>{{prezzo}}</p>
-    <p>{{quantità}}</p>
-    <p>{{categoria}}</p>
-    {% endfor %}
-    {% endif %}
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+    </head>
+    <body>
+        <a href="/elenco"><button>Prodotti</button></a>
+        {% for img in prodotti %}
+        <img src="{{ img }}" alt="">
+        {% endfor %}
+        <img class="card-img img">
+    </body>
+    <script type=text/javascript src="{{url_for('static', filename='js/script.js') }}"></script>
 </html>

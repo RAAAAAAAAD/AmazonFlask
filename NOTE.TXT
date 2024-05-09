@@ -1,0 +1,16 @@
+APP.PY
+1. ,nome=df['nome'].tolist(),prezzo=df['prezzo'].tolist(),quantità=df['quantità'].tolist(),categoria=df['categoria'].tolist()
+
+html
+1.  {% if part == 'part1' %} 
+    {% elif part == 'part2' %}
+    {{ tabella|safe }}
+    {% for img in prodotti %}
+    <img src="{{ img }}" alt="">
+    <p>{{nome}}</p>
+    <p>{{nome}}</p>
+    <p>{{prezzo}}</p>
+    <p>{{quantità}}</p>
+    <p>{{categoria}}</p>
+    {% endfor %}
+    {% endif %}
