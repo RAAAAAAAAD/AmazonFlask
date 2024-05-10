@@ -5,10 +5,13 @@
         <title>Document</title>
     </head>
     <body>
+        {% if part == 'part1' %} 
         <a href="/elenco"><button>Prodotti</button></a>
+        {% elif part == 'part2' %}
         {% for img in prodotti %}
-        <img src="{{ img }}" alt="">
+        <img  src="{{ img }}" width="300px" height="300px"> <br />
         {% endfor %}
+        {% endif %}
         <img class="card-img img">
     </body>
     <script type=text/javascript src="{{url_for('static', filename='js/script.js') }}"></script>
