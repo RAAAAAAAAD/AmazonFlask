@@ -3,7 +3,9 @@ document.addEventListener('DOMContentLoaded', function() {
     .then(response => response.json())
     .then(data => {
         console.log(data);
-        // Fai qualcosa con i dati, ad esempio visualizzali nella pagina
+        function getProtuct(name){
+            
+        }
     })
     .catch(error => {
         console.error('Si è verificato un errore durante la richiesta:', error);
